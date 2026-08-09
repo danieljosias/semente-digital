@@ -3,17 +3,19 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
+    "dev": "next dev --webpack",
+    "build": "next build --wepback",
     "start": "next start",
     "lint": "eslint"
   },
   "dependencies": {
+    "@chakra-ui/next-js": "^2.4.2",
     "@chakra-ui/react": "^3.36.1",
     "@emotion/react": "^11.14.0",
     "@hookform/resolvers": "^5.7.1",
     "motion": "^13.0.0",
     "next": "16.3.0",
+    "next-themes": "^0.4.6",
     "react": "19.2.8",
     "react-dom": "19.2.8",
     "react-hook-form": "^7.85.0",
