@@ -121,12 +121,12 @@ export function Hero() {
                 fontWeight="800"
                 color="#173B2A"
               >
-                Seu negócio merece uma presença digital que{" "}
+                Seu negócio merece um site tão profissional quanto o {" "}
                 <Box
                   as="span"
                   color="#6D9D68"
                 >
-                  gere oportunidades.
+                  trabalho que você oferece.
                 </Box>
               </Heading>
             </MotionBox>
@@ -142,9 +142,25 @@ export function Hero() {
                 lineHeight="1.7"
                 color="#58635C"
               >
-                Criamos sites, landing pages e experiências digitais que unem
-                estratégia, design, performance e conversão para transformar
-                visitantes em clientes.
+                Criamos sites e landing pages personalizados,
+                 com atenção aos detalhes, atendimento próximo e
+                  agilidade em cada etapa.
+              </Text>
+            </MotionBox>
+
+            <MotionBox
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.7, delay: 0.2 }}
+            >
+              <Text
+                maxW="590px"
+                fontSize={{ base: "16px", md: "18px" }}
+                lineHeight="1.7"
+                color="#58635C"
+                fontWeight="bold"
+              >
+                Não apenas entregamos. Buscamos fazer melhor.
               </Text>
             </MotionBox>
 
@@ -206,34 +222,7 @@ export function Hero() {
               </Flex>
             </MotionBox>
 
-            {/* Pequena prova */}
-            <MotionBox
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ duration: 0.8, delay: 0.5 }}
-            >
-              <HStack
-                gap="8px"
-                align="center"
-                color="#68736C"
-              >
-                <Flex
-                  w="24px"
-                  h="24px"
-                  borderRadius="full"
-                  align="center"
-                  justify="center"
-                  bg="#E5EEE3"
-                  color="#4E794A"
-                >
-                  <FiCheck size={13} />
-                </Flex>
-
-                <Text fontSize="13px">
-                  Projetos pensados para gerar autoridade e resultados.
-                </Text>
-              </HStack>
-            </MotionBox>
+  
           </Stack>
 
           {/* =========================
