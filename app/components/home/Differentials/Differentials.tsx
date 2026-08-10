@@ -145,7 +145,7 @@ export function Differentials() {
                 as="span"
                 color="#A8C99B"
               >
-                presença digital.
+                experiências digitais com atenção a cada detalhe.
               </Box>
             </Heading>
 
