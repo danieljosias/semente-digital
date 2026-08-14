@@ -6,6 +6,7 @@ import { Process } from "./components/home/Process";
 import { Differentials } from "./components/home/Differentials";
 import { Testimonials } from "./components/home/Testimonials";
 import { VideoTestimonials } from "./components/home/VideoTestimonials";
+import { FAQ } from "./components/home/FAQ";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <Differentials />
         <Testimonials />
         <VideoTestimonials />
+        <FAQ />
     </div>
   );
 }
