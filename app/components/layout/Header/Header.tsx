@@ -11,6 +11,7 @@ import {
   Link,
   Stack,
   Text,
+  Image
 } from "@chakra-ui/react";
 import { FiArrowUpRight, FiMenu, FiX } from "react-icons/fi";
 
@@ -62,14 +63,14 @@ export function Header() {
       right="0"
       zIndex="1000"
       transition="all 0.3s ease"
-      bg={isScrolled ? "rgba(255, 255, 255, 0.94)" : "transparent"}
+      bg={isScrolled ? "black" : "black"}
       backdropFilter={isScrolled ? "blur(14px)" : "none"}
       boxShadow={isScrolled ? "0 4px 24px rgba(0, 0, 0, 0.06)" : "none"}
       borderBottom={
-        isScrolled ? "1px solid rgba(0, 0, 0, 0.06)" : "1px solid transparent"
+        isScrolled ? "2px solid #57c9b5" : "1px solid black"
       }
     >
-      <Container maxW="1200px">
+      <Container maxW="1200px" >
         <Flex
           h={{ base: "72px", md: "82px" }}
           align="center"
@@ -82,7 +83,14 @@ export function Header() {
             aria-label="Semente Digital - Página inicial"
           >
             <HStack gap="10px">
+              <Image 
+              src="./images/logo.png"
+              w="170px"
+              h="170px"
+              />
+
               {/* Símbolo */}
+            {/*   
               <Flex
                 w="42px"
                 h="42px"
@@ -113,10 +121,10 @@ export function Header() {
                   top="7px"
                   right="7px"
                 />
-              </Flex>
+              </Flex> */}
 
               {/* Nome */}
-              <Box lineHeight="1">
+              {/* <Box lineHeight="1">
                 <Text
                   fontSize="17px"
                   fontWeight="800"
@@ -135,7 +143,7 @@ export function Header() {
                 >
                   DIGITAL
                 </Text>
-              </Box>
+              </Box> */}
             </HStack>
           </Link>
 
@@ -150,11 +158,11 @@ export function Header() {
                 href={item.href}
                 fontSize="14px"
                 fontWeight="500"
-                color="#303833"
+                color="white"
                 position="relative"
                 transition="color 0.2s ease"
                 _hover={{
-                  color: "#173B2A",
+                  color: " #57c9b5",
                   textDecoration: "none",
                 }}
               >
@@ -196,7 +204,7 @@ export function Header() {
             aria-label={isMenuOpen ? "Fechar menu" : "Abrir menu"}
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             variant="ghost"
-            color="#173B2A"
+            color="white"
             fontSize="23px"
             _hover={{
               bg: "rgba(23, 59, 42, 0.08)",

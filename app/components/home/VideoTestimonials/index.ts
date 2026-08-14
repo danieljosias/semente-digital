@@ -1,0 +1,1 @@
+export { VideoTestimonials } from './VideoTestimonials'
