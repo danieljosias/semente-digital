@@ -177,7 +177,7 @@ export function Header() {
                 
                 
                 display={{ base: "none", lg: "flex" }}
-                bg="#173B2A"
+                bg="#57c9b5"
                 color="white"
                 borderRadius="full"
                 px="22px"
@@ -187,7 +187,7 @@ export function Header() {
                 gap="8px"
                 transition="all 0.25s ease"
                 _hover={{
-                bg: "#24583F",
+                bg: "#57c9b5",
                 transform: "translateY(-2px)",
                 boxShadow: "0 8px 20px rgba(23, 59, 42, 0.18)",
                 }}

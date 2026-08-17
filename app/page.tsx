@@ -7,6 +7,7 @@ import { Differentials } from "./components/home/Differentials";
 import { Testimonials } from "./components/home/Testimonials";
 import { VideoTestimonials } from "./components/home/VideoTestimonials";
 import { FAQ } from "./components/home/FAQ";
+import { FinalCTA } from "./components/home/FinalCTA";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         <Testimonials />
         <VideoTestimonials />
         <FAQ />
+        <FinalCTA />
     </div>
   );
 }

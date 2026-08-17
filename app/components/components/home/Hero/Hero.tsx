@@ -85,7 +85,7 @@ export function Hero() {
                 py="7px"
                 borderRadius="full"
                 bg="rgba(23, 59, 42, 0.08)"
-                color="#173B2A"
+                color="black"
                 fontSize="11px"
                 fontWeight="700"
                 letterSpacing="1.2px"
@@ -95,7 +95,7 @@ export function Hero() {
                   w="6px"
                   h="6px"
                   borderRadius="full"
-                  bg="#6D9D68"
+                  bg="#57c9b5"
                 />
 
                 Estratégia + Design + Tecnologia
@@ -119,12 +119,12 @@ export function Hero() {
                 lineHeight="1.04"
                 letterSpacing="-2.8px"
                 fontWeight="800"
-                color="#173B2A"
+                color="#000000"
               >
                 Seu negócio merece um site tão profissional quanto o {" "}
                 <Box
                   as="span"
-                  color="#6D9D68"
+                  color="#57c9b5"
                 >
                   trabalho que você oferece.
                 </Box>
@@ -182,14 +182,14 @@ export function Hero() {
                     h="54px"
                     px="25px"
                     borderRadius="full"
-                    bg="#173B2A"
+                    bg="#57c9b5"
                     color="white"
                     fontSize="14px"
                     fontWeight="600"
                     gap="10px"
                     transition="all 0.25s ease"
                     _hover={{
-                        bg: "#24583F",
+                        bg: "#57c9b5",
                         transform: "translateY(-2px)",
                         boxShadow: "0 12px 25px rgba(23, 59, 42, 0.18)",
                     }}
@@ -213,7 +213,7 @@ export function Hero() {
                     transition="all 0.25s ease"
                     _hover={{
                         bg: "white",
-                        borderColor: "#173B2A",
+                        borderColor: "#57c9b5",
                     }}
                     >
                     Ver projetos
@@ -300,7 +300,7 @@ export function Hero() {
                         w="30px"
                         h="30px"
                         borderRadius="9px"
-                        bg="#173B2A"
+                        bg="#57c9b5"
                         align="center"
                         justify="center"
                         color="white"
@@ -333,14 +333,14 @@ export function Hero() {
                       w="75%"
                       h="18px"
                       borderRadius="full"
-                      bg="#173B2A"
+                      bg="#b7e595"
                     />
 
                     <Box
                       w="55%"
                       h="18px"
                       borderRadius="full"
-                      bg="#6D9D68"
+                      bg="#57c9b5"
                     />
 
                     <Box
@@ -357,14 +357,14 @@ export function Hero() {
                       borderRadius="full"
                       bg="#E5EAE6"
                     />
-
                     <Box
-                      w="125px"
-                      h="38px"
+                      w="58%"
+                      h="8px"
                       borderRadius="full"
-                      bg="#173B2A"
-                      mt="10px"
+                      bg="#E5EAE6"
                     />
+
+                    
                   </Stack>
 
                   <SimpleGrid
@@ -452,8 +452,8 @@ export function Hero() {
                 }}
               >
                 <Box
-                  bg="#173B2A"
-                  color="white"
+                  bg="white"
+                  color="#366641"
                   borderRadius="16px"
                   px="15px"
                   py="13px"
@@ -466,7 +466,7 @@ export function Hero() {
                       borderRadius="10px"
                       align="center"
                       justify="center"
-                      bg="rgba(255,255,255,0.10)"
+                      bg="#E9F1E7"
                     >
                       <FiMousePointer />
                     </Flex>
@@ -474,7 +474,7 @@ export function Hero() {
                     <Box>
                       <Text
                         fontSize="10px"
-                        color="rgba(255,255,255,0.65)"
+                        color="#7A847D"
                       >
                         Experiência
                       </Text>
@@ -498,7 +498,7 @@ export function Hero() {
                 w="48px"
                 h="48px"
                 borderRadius="14px"
-                bg="#A8C99B"
+                bg="#57c9b5"
                 color="#173B2A"
                 align="center"
                 justify="center"
