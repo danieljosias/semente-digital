@@ -83,7 +83,7 @@ export function TrustBar() {
                     align="center"
                     justify="center"
                     bg="#EEF4EC"
-                    color="#4E794A"
+                    color="#57c9b5"
                   >
                     <Icon size={18} />
                   </Flex>
@@ -92,7 +92,7 @@ export function TrustBar() {
                     <Text
                       fontSize="14px"
                       fontWeight="700"
-                      color="#173B2A"
+                      color="black"
                       mb="4px"
                     >
                       {pillar.title}
