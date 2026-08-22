@@ -206,7 +206,7 @@ export function Hero() {
                     px="24px"
                     borderRadius="full"
                     borderColor="#D5DDD7"
-                    color="#173B2A"
+                    color="black"
                     bg="transparent"
                     fontSize="14px"
                     fontWeight="600"
@@ -413,7 +413,7 @@ export function Hero() {
                       align="center"
                       justify="center"
                       bg="#E9F1E7"
-                      color="#4E794A"
+                      color="#58c8b6"
                     >
                       <FiTrendingUp />
                     </Flex>
@@ -429,7 +429,7 @@ export function Hero() {
 
                       <Text
                         fontSize="14px"
-                        color="#173B2A"
+                        color="black"
                         fontWeight="700"
                       >
                         + oportunidades
@@ -453,7 +453,7 @@ export function Hero() {
               >
                 <Box
                   bg="white"
-                  color="#366641"
+                  color="black"
                   borderRadius="16px"
                   px="15px"
                   py="13px"
@@ -467,6 +467,7 @@ export function Hero() {
                       align="center"
                       justify="center"
                       bg="#E9F1E7"
+                      color="#58c8b6"
                     >
                       <FiMousePointer />
                     </Flex>
@@ -499,7 +500,7 @@ export function Hero() {
                 h="48px"
                 borderRadius="14px"
                 bg="#57c9b5"
-                color="#173B2A"
+                color="black"
                 align="center"
                 justify="center"
                 boxShadow="0 12px 25px rgba(23, 59, 42, 0.12)"
