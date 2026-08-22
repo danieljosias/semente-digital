@@ -91,7 +91,7 @@ export function Services() {
               py="6px"
               borderRadius="full"
               bg="rgba(23, 59, 42, 0.08)"
-              color="#173B2A"
+              color="black"
               fontSize="10px"
               fontWeight="700"
               letterSpacing="1.4px"
@@ -106,10 +106,10 @@ export function Services() {
               lineHeight="1.08"
               letterSpacing="-2px"
               fontWeight="800"
-              color="#173B2A"
+              color="black"
             >
               Soluções para transformar sua{" "}
-              <Box as="span" color="#6D9D68">
+              <Box as="span" color="#57c9b5">
                 presença online.
               </Box>
             </Heading>
@@ -132,7 +132,7 @@ export function Services() {
                     
                     variant="outline"
                     borderColor="#C9D3CB"
-                    color="#173B2A"
+                    color="black"
                     borderRadius="full"
                     h="48px"
                     px="20px"
@@ -142,7 +142,7 @@ export function Services() {
                     flexShrink="0"
                     _hover={{
                     bg: "white",
-                    borderColor: "#173B2A",
+                    borderColor: "#57c9b5",
                     }}
                 >
                     Falar sobre meu projeto
@@ -167,8 +167,8 @@ export function Services() {
             <Box
               h="100%"
               minH={{ base: "420px", lg: "520px" }}
-              bg="#173B2A"
-              color="white"
+              bg="#57c9b5"
+              color="black"
               borderRadius={{ base: "22px", md: "28px" }}
               p={{ base: "28px", md: "40px" }}
               position="relative"
@@ -219,7 +219,7 @@ export function Services() {
                     fontSize="11px"
                     fontWeight="700"
                     letterSpacing="1.5px"
-                    color="#A8C99B"
+                    color="white"
                   >
                     01
                   </Text>
@@ -229,7 +229,7 @@ export function Services() {
                     fontWeight="600"
                     letterSpacing="1.3px"
                     textTransform="uppercase"
-                    color="rgba(255,255,255,0.55)"
+                    color="black"
                   >
                     Principal
                   </Text>
@@ -252,7 +252,7 @@ export function Services() {
                   maxW="440px"
                   fontSize={{ base: "14px", md: "15px" }}
                   lineHeight="1.7"
-                  color="rgba(255,255,255,0.70)"
+                  color="black"
                 >
                   Uma presença digital profissional para empresas que querem
                   transmitir autoridade, confiança e gerar novas oportunidades
@@ -279,8 +279,8 @@ export function Services() {
                         borderRadius="full"
                         align="center"
                         justify="center"
-                        bg="rgba(168,201,155,0.16)"
-                        color="#A8C99B"
+                        bg="white"
+                        color="black"
                         flexShrink="0"
                       >
                         <FiCheck size={11} />
@@ -288,8 +288,7 @@ export function Services() {
 
                       <Text
                         fontSize="12px"
-                        color="rgba(255,255,255,0.78)"
-                      >
+                        color="black">
                         {feature}
                       </Text>
                     </HStack>
@@ -298,8 +297,8 @@ export function Services() {
                 <Link href="/contato">
                     <Button
                    
-                    bg="#A8C99B"
-                    color="#173B2A"
+                    bg="white"
+                    color="black"
                     borderRadius="full"
                     h="48px"
                     px="21px"
@@ -307,8 +306,9 @@ export function Services() {
                     fontWeight="700"
                     gap="8px"
                     _hover={{
-                        bg: "#B9D5AE",
+                        bg: "black",
                         transform: "translateY(-2px)",
+                        color: "white",
                     }}
                     transition="all 0.2s ease"
                     >
@@ -361,7 +361,7 @@ export function Services() {
                       align="center"
                       justify="center"
                       bg="#EEF4EC"
-                      color="#4E794A"
+                      color="#58c8b6"
                     >
                       <Icon size={19} />
                     </Flex>
@@ -380,7 +380,7 @@ export function Services() {
                     as="h3"
                     fontSize={{ base: "20px", md: "22px" }}
                     letterSpacing="-0.5px"
-                    color="#173B2A"
+                    color="black"
                     mb="9px"
                   >
                     {service.title}
